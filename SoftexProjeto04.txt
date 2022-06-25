@@ -1,0 +1,56 @@
+Eraldo Lima
+
+Lógica de Programação e Orientação a Objetos
+
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+ 
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+ 
+Apresente as informações solicitadas no final do cadastro.
+
+nome: caracter
+endereco: caracter
+cidade: caracter
+cpf: inteiro
+rg : inteiro
+idade: inteiro
+nomeDoPai: caracter
+nomeDaMae: caracter
+peso: real
+rendaBruta: real 
+
+escreva ("Qual seu nome?")
+leia (nome) 
+
+escreva ("Qual o seu endereço?")
+leia (endereco) 
+
+escreva ("Qula é a sua cidade?")
+leia (cidade)
+
+escreva ("Qual o seu CPF?")
+leia (cpf)
+
+escreva ("Qual o seu RG?")
+leia (rg) 
+
+escreva ("Qual o nome do seu pai?") 
+leia (nomeDoPai) 
+
+escreva ("Qual o nome da sua mãe?")
+leia (nomeDaMae)
+ 
+escreva ("Quanto você pesa?")
+leia (peso)
+
+escreva("Qual sua Renda Bruta?")
+leia (rendaBruta) 
