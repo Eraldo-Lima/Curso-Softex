@@ -1,0 +1,101 @@
+Lógica de Programação e Orientação a Objetos
+
+Elabore um algoritmo que possa descobrir, através de perguntas e respostas, 
+qual meio de transporte o usuário está pensando.
+O usuário deverá escolher uma das seguintes opções:
+
+- Trator
+- Moto
+- Bicicleta
+- Trem
+- Carro
+- Caminhão
+- Ônibus
+- Paraquedas
+- Balão
+- Avião
+- Helicóptero
+- Submarino
+- Barco
+- Navio
+- Lancha
+
+Para chegar ao resultado, só devem ser usadas perguntas que retornem "Sim" ou "Não".
+
+Exemplo:
+É terrestre? Sim.
+Cabe apenas uma pessoa? Sim.
+É pesado? Não.
+Tem pedal? Sim.
+Então, o transporte escolhido foi a bicicleta.Pergunta 1: O veículo é Terrestre? 
+Se SIM então
+   Vá para Pergunta1.1
+senão
+  Pergunte: “O veículo é Aéreo?”
+se SIM então 
+	Vá para a Pergunta2
+senão
+vá para Pergunta3 (aqui, se não é aereo ou terrestre, ele terá que ser aquático).
+fimse
+
+Desenvolvimento
+
+Pergunta1.1: Cabe apenas uma pessoa?
+Se SIM então
+Vá para pergunta 1.1.1
+senão 
+Pergunta: “Usa capacete?”
+Se SIM então
+escreva “O seu veículo é uma MOTO”
+senão 
+Vá para pergunta 1.1.3 (se não é um ou dois, então, consequentemente tem que ser a 3).
+
+Pergunta 1.1.1: É pesado?
+Se SIM 
+escreva: “O veículo é um TRATOR”
+senão
+escreva: “O seu veículo é uma BICICLETA”
+
+Pergunta 1.1.3: O seu veículo usa trilho?
+Se SIM
+escreva: “O seu veículo é um TREM”
+senão 
+Pergunte: “O seu veículo é Alto?” (de acordo com o fluxograma, se ele não anda no trilho ele anda na pista.
+Se NÃO então (o veículo é leve)
+escreva: “O seu veículo é um CARRO”
+se SIM então
+pergunte: “Usa carroceria?”
+se SIM então
+escreva: “O seu veículo é um CAMINHÃO”
+senão 
+escreva: “O seu veículo é um ÔNIBUS”.
+
+
+Pergunta 2: Precisa Pular?
+Se SIM então
+escreva: “O seu veículo é uma ASA DELTA!)
+senão
+Pergunte: “É devagar?”
+se SIM então
+escreva: “O seu veículo é um balão”
+senão
+Pergunte: “Possui asas fixas?”
+se SIM então
+escreva “O seu veículo é um balão”
+senão
+escreva “O seu veículo é um helicóptero”.
+
+Pergunta3: “O veículo é coberto d’água?”
+se SIM então
+escreva: “O seu veículo é um SUBMARINO”
+senão
+Pergunte: “Seu veículo possui vela?”
+se SIM então
+escreva: “O seu veículo é um BARCO”
+senão 
+Pergunte: “O seu veículo é alto?”
+se SIM então
+escreva: “O seu veículo é um NAVIO”
+senão
+escreva: “O seu veículo é uma LANCHA”.
+fimse
